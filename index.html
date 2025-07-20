@@ -1,0 +1,106 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>anaphora.gov</title>
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+
+    
+    <div id="home">
+      <h1>
+        anaphora.gov
+      </h1>
+      <div id="subtitle">
+        Repetition in goverment audio found in the <a href="http://go.usa.gov/xmPk7">Library of Congress web archive.</a>
+      </div>
+      
+      <ul>
+        
+        
+        <li>This website plays audio: 🔊👂</li>
+        <li>Doesn't work so good on mobile: 📱🤷‍♂️</li>
+        <li>Read more about it on <a href="https://medium.com/@thisismattmiller/anaphora-gov-8e8c21f539b2">this blog post</a>: 📜💤</li>
+        
+
+      </ul>
+      <button id="random-homepage" class="button-outline">
+        Play a Random Phrase
+      </button>
+      
+      <h3>
+        The List
+      </h3>
+      <ol id="the-list">
+        
+        
+      </ol>
+      
+    </div>
+    
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+    
+    <div id="inline">
+    </div>
+    
+    
+    
+    <div id="overlay">      
+    </div>
+    <div id="detail">
+      Hello Im okay thanks for asking
+    </div>    
+    <nav id="nav">
+      <button id="go-home" class="button-outline">
+        home
+      </button>
+      
+      <div class="vr"></div>
+      <button id="random" class="button-outline">
+        random
+      </button>
+      <div class="vr">
+
+      </div>
+      <button id="stop" class="button-outline">
+        stop
+      </button>
+      <button id="play-unison" class="button-outline">
+        play in unison
+      </button>
+      <button id="play-fast" class="button-outline">
+        play fast
+      </button>
+      <button id="play-slow" class="button-outline">
+        play slow
+      </button>
+      
+    </nav>
+    
+    
+    
+  
+  </body>
+</html>

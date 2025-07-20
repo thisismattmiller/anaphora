@@ -1,0 +1,148 @@
+/* styles */
+/* called by your view template */
+
+body{
+ font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  color: #2d3436;
+}
+
+
+.phrase{
+  -webkit-text-stroke: 1px #2d3436; 
+  text-stroke: 1px #2d3436;
+  color:white;    
+  font-weight: bold;
+  display: inline-block;
+  border: 1px solid transparent;
+  
+}
+.phrase:hover{
+  border: solid 1px rgba(103, 177, 224, 0.67);
+  cursor:pointer;
+  
+}
+
+.phrase-detail{
+  color:#2d3436;    
+  font-weight: bold;
+  display: inline-block;  
+  margin-bottom:0.1em;
+  min-width:200px;
+}
+#home{
+ margin-left:3em; 
+}
+#home h1{
+  -webkit-text-stroke: 1px #2d3436; 
+  text-stroke: 1px #2d3436;
+  color:white;    
+  font-weight: bold;
+  display: inline-block;
+  padding-bottom:0;
+  margin-bottom:0;
+  font-size: calc(45px + 7vw); 
+}
+#home ul, ol{
+  margin-left:0;
+  padding-left:20px;
+
+}
+#home h3{
+  padding-bottom:0;
+  margin-bottom:0;
+}
+#subtitle{
+  font-size: calc(10px + 1vw); 
+
+}
+
+
+.unigram{
+  font-size: calc(45px + 1vw);  
+}
+.bigram{
+  font-size: calc(40px + 1vw);  
+}
+.trigram{
+ font-size: calc(25px + 1vw);  
+}
+.fourgram{
+ font-size: calc(25px + 1vw);  
+}
+.fivegram{
+ font-size: calc(25px + 1vw);  
+}
+.moregram{
+ font-size: calc(25px + 1vw);  
+}
+#inline{
+/*  text-align:center;  */
+}
+.phrase span{
+  
+    
+}
+
+.text-dark{
+  color: #2d3436;
+}
+
+#overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:10000;
+  background-color:rgba(0,0,0,0.45);
+  display:none;
+  
+}
+#detail{
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:10001;
+  height:400px;
+  min-width:300px;
+  background-color:white;
+  display:none;
+  padding:0.5em;
+  
+}
+
+.button-outline{
+  -webkit-text-stroke: 1px #2d3436; 
+  text-stroke: 1px #2d3436;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: white;
+  border: solid 1px #2d3436;
+  border-radius: 16px;
+}
+.button-outline:hover{
+  color: #2d3436;
+}
+
+nav{
+    height: 2.15em;
+    width: 100%;
+    background-color: white;
+    border-top: solid 1px black;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    padding: 0.25em;
+    display:none
+}
+audio{
+ width: 100%; 
+}
+.vr{
+  width:2px;
+  height: 1.15em;
+  border-left: solid 1px black;
+  display:inline-block
+
+}
